@@ -3,7 +3,7 @@ name: RSS → Notion
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"  # every 30 minutes
+    - cron: '48 */2 * * *'  # Runs at 48 minutes past the hour, every 2 hours
 
 permissions:
   contents: read

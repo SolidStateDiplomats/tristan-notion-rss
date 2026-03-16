@@ -93,4 +93,9 @@ Once secrets are configured, enable the workflow and watch the Action logs for i
 - **Backfill** – Temporarily raise `MAX_ITEMS_PER_FEED` to reprocess older entries.
 - **Create-only mode** – Set `ALLOW_UPDATES=false` to avoid updating existing pages.
 
+## To do
+
+- **Feed source** - Use a Notion DB for the feed sources
+- **Time out variable** - Use a variable for the "Fetch Full Content"
+
 Happy automating! 🚀
